@@ -15,3 +15,8 @@ font-family: "MM";
 src: url(../font/Montserrat-Medium.ttf);
 
 }
+@font-face {
+font-family: "PO";
+src: url(../font/ProstoOne-Regular.ttf);
+
+}
