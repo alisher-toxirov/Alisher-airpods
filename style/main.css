@@ -18,6 +18,10 @@
     text-decoration: none;
 }
 
+body{
+background-color: var(--dark-gray);
+}
+
 .page_header {
     background-color: var(--dark-gray);
     padding-block: 6px;
@@ -87,4 +91,30 @@ gap: 38px;
     display: flex;
     align-items: center;
     gap: 11px;
+}
+.product{
+    margin-top: 30px;
+}
+
+.product-content{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+}
+
+.content-text{
+    margin-top: 33px;
+    color: var(--secondary);
+    font-family: var(--MM);
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.content-img{
+    max-width: 552px;
+    width: 100%;
+    display: block;
+}
+.align-center{
+    align-items: center;
 }
