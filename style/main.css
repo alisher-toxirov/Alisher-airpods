@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: var(--dark-gray);
+    background-color: var(--prymary);
 }
 
 .page_header {
@@ -46,7 +46,8 @@ body {
     align-items: center;
 }
 
-.nav_link {
+.nav_link,
+.footer-nav-link  {
     color: var(--secondary);
     font-family: var(--MB);
     font-size: 20px;
@@ -202,4 +203,24 @@ body {
     font-size: 16px;
     line-height: 20px;
     border: none;
+}
+
+.page-footer{
+    background-color: var(--dark-gray);
+    padding: 80px 0;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
